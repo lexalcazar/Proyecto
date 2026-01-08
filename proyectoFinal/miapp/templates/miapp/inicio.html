@@ -1,0 +1,7 @@
+ {% extends "base_generic.html" %}
+ 
+ {% block content %}
+   <h1 style="text-align: center;">Bienvenido a la página de inicio</h1>
+   <h1>Esta es la página principal de la aplicación.</h1>
+   <a href={% url 'ver_usuarios' %}><h2>Ver lista de usuarios</h2></a>
+ {% endblock %}
